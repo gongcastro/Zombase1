@@ -1,19 +1,16 @@
+library(tidyverse)
 library(magrittr)
-library(ggplot2)
-library(plyr)
-library(dplyr)
 library(car)
 
 zombies <-
   read.delim("zombies.txt",
              sep = "\t",
-             col.names = c("title", "type", "year", "director", "country"),
              na.strings = c("NA", ""),
-             header = FALSE,
+             header = TRUE,
              dec = ".",
-             colClasses = c("character", "character", "numeric", "character", "factor"))
+             colClasses = c("character", "factor", "numeric", "character", "factor"))
 
-countsCountry <- as.vector(table(zombies$country))
+countsCountry <- zombies %$% country %>% table %>% as.vector
 
 zombies %>%
   ggplot(aes(x = year,
@@ -41,3 +38,8 @@ zombies %>%
   ggtitle("Zombie material over the years by country") +
   theme_minimal()
 
+zombies %>%
+  ggplot(aes(x = year, y = country, fill = type)) +
+  geom_tile()
+
+  
