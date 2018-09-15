@@ -1,4 +1,4 @@
-title	type	year	director	country	seen
+title	type	year	author	country	seen
 Emerging Infectious Literatures and the Zombie Condition	academic	2018	Joanna Verran, Xavier Aldana	uk	no
 Summer reading: Medicine, psychoanalysis and the zombie apocalypse in comic books.	academic	2018	Leslie Citrome	usa	no
 The undead in culture and science	academic	2018	Connie Nugent, Gilbert Berdine, Kenneth Nugent	usa	no
@@ -880,148 +880,221 @@ Woke Up Dead	series	2009	Jon Heder	usa	no
 Dead Set	series	2008	Charlie Brooke, Yann Demange	uk	yes
 Zombie Hunters: City of the Dead	series	2007	various	usa	no
 Xombie (a.k.a. Xombie: Dead on Arrival)	series	2003	James Farr	usa	no
-Dead Cells	videogame	NA			no
-The Last of Us II	videogame	2019	Neil Druckmann, Halley Gross	usa	no
-Bite Off!	videogame	2018			no
-Fatal Hour: Petroleum	videogame	2018			no
-Dread	videogame	2017			no
-BrainBread 2	videogame	2016			no
-Call of Duty: Infinite Warfare (zombie mode)	videogame	2016			no
-Plants vs. Zombies: Garden Warfare 2	videogame	2016			no
-Call of Duty: Black Ops III (zombie mode)	videogame	2015			no
-Dying Light	videogame	2015			no
-H1Z1: Just Survive	videogame	2015			no
-Reason 2 Die: Awakening	videogame	2015			no
-Rebuild 3: Gangs of Deadsville	videogame	2015			no
-Zombie Escape Amsterdam	videogame	2015			no
-Contagion	videogame	2014			no
-Dead State	videogame	2014			no
-Plants vs. Zombies: Garden Warfare	videogame	2014			no
-The Evil Within	videogame	2014			no
-Unturned	videogame	2014			no
-Zombeer	videogame	2014			no
-7 Days to Die	videogame	2013			no
-Dead Effect series	videogame	2013			no
-How To Survive	videogame	2013			no
-State of Decay	videogame	2013			no
-The Last of Us	videogame	2013	Bruce Straley, Neil Druckmann	usa	no
-The Last of Us	videogame	2013			no
-The Walking Dead: Survival Instinct	videogame	2013			no
-World of the Living Dead Resurrection	videogame	2013			no
-Zombie Burger!	videogame	2013			no
-Zombie Shooter	videogame	2013			no
-Zombies Ate My Friends	videogame	2013			no
-Amy	videogame	2012			no
-Call of Duty: Black Ops II (zombie mode)	videogame	2012			no
-DayZ	videogame	2012			no
-Deadlight	videogame	2012			no
-Infestation: Survivor Stories	videogame	2012			no
-Lollipop Chainsaw	videogame	2012			no
-The Walking Dead	videogame	2012			no
-Zafehouse: Diaries series	videogame	2012			no
-Zombies, Run!	videogame	2012			no
-ZombiU	videogame	2012			no
-All Zombies Must Die!	videogame	2011			no
-Atom Zombie Smasher	videogame	2011			no
-Call of Duty: Black Ops: Zombies	videogame	2011			no
-Dead Block	videogame	2011			no
-Dead Island series	videogame	2011			no
-No More Room in Hell	videogame	2011			no
-Project Zomboid	videogame	2011			no
-Rise of Nightmares	videogame	2011			no
-Space Pirates and Zombies	videogame	2011			no
-Trapped Dead	videogame	2011			no
-Yakuza: Dead Souls	videogame	2011			no
-Zombie Gunship	videogame	2011			no
-Zombie Lane	videogame	2011			no
-Zombie Parkour Runner	videogame	2011			no
-Zombies	videogame	2011			no
-Blood Drive	videogame	2010			no
-Call of Duty: Black Ops (zombie mode)	videogame	2010			no
-Dead Nation	videogame	2010			no
-Pixel Force: Left 4 Dead	videogame	2010			no
-Red Dead Redemption: Undead Nightmare	videogame	2010			no
-Rock of the Dead	videogame	2010			no
-Zombie Panic in Wonderland	videogame	2010			no
-Zombie Wonderland	videogame	2010			no
-Alive 4-Ever	videogame	2009			no
-Burn, Zombie Burn!	videogame	2009			no
-Call of Duty: World at War – Zombies	videogame	2009			no
-Fort Zombie	videogame	2009			no
-I Made a Game with Zombies in It!	videogame	2009			no
-Minecraft	videogame	2009			no
-Plants vs. Zombies	videogame	2009			no
-Shellshock 2: Blood Trails	videogame	2009			no
-The Zombie Island of Dr. Ned	videogame	2009			no
-Undead Knights	videogame	2009			no
-Zombie Apocalypse	videogame	2009			no
-Zombie Driver	videogame	2009			no
-Zombie Tycoon	videogame	2009			no
-Zombie Wranglers	videogame	2009			no
-Call of Duty: World at War (zombie mode)	videogame	2008			no
-Corpse Craft: Incident at Weardd Academy	videogame	2008			no
-Dead Frontier	videogame	2008			no
-Dead Space series	videogame	2008			no
-Die2Nite	videogame	2008			no
-Left 4 Dead series	videogame	2008			no
-Little Red Riding Hood's Zombie BBQ	videogame	2008			no
-Soulless	videogame	2008			no
-Teenage Zombies: Invasion of the Alien Brain Thingys!	videogame	2008			no
-The Last Guy	videogame	2008			no
-Dead Head Fred	videogame	2007			no
-Touch the Dead	videogame	2007			no
-Zombie Panic! Source	videogame	2007			no
-Dead Rising series	videogame	2006			no
-Darkwatch	videogame	2005			no
-Infected	videogame	2005			no
-Killing Floor or Killing Floor 2	videogame	2005			no
-Land of the Dead: Road to Fiddler's Green	videogame	2005			no
-Postal 2: Apocalypse Weekend	videogame	2005			no
-Stubbs the Zombie in Rebel Without a Pulse	videogame	2005			no
-TimeSplitters: Future Perfect	videogame	2005			no
-Urban Dead	videogame	2005			no
-Survival Crisis Z	videogame	2004			no
-The X-Files: Resist or Serve	videogame	2004			no
-Judge Dredd: Dredd Vs. Death	videogame	2003			no
-Siren series	videogame	2003			no
-Hunter: The Reckoning series	videogame	2002			no
-Warcraft III series	videogame	2002			no
-Return to Castle Wolfenstein	videogame	2001			no
-Carrier	videogame	2000			no
-D2	videogame	2000			no
-Evil Dead series	videogame	2000			no
-Martian Gothic: Unification	videogame	2000			no
-The OneChanbara series	videogame	2000			no
-Shadow Man	videogame	1999			no
-The Typing of the Dead	videogame	1999			no
-They Hunger series	videogame	1999			no
-Zombie Revenge	videogame	1999			no
-CarnEvil	videogame	1998			no
-Flesh Feast	videogame	1998			no
-Half-Life series	videogame	1998			no
-MediEvil series	videogame	1998			no
-Zombie Massacre	videogame	1998			no
-Blood	videogame	1997			no
-Nightmare Creatures	videogame	1997			no
-Voodoo Kid	videogame	1997			no
-Resident Evil series	videogame	1996			no
-The House of the Dead series	videogame	1996			no
-Area 51	videogame	1995			no
-Alone in the Dark 3	videogame	1994			no
-Corpse Killer	videogame	1994			no
-Ghoul Patrol	videogame	1994			no
-Doom series	videogame	1993			no
-Isle of the Dead	videogame	1993			no
-Zombies Ate My Neighbors	videogame	1993			no
-Monkey Island 2: LeChuck's Revenge	videogame	1991			no
-Horror Zombies from the Crypt	videogame	1990			no
-Zombie Nation	videogame	1990			no
-Beast Busters	videogame	1989			no
-Sweet Home	videogame	1989			no
-Zombies: Undead or Alive	videogame	1989			no
-Zombi	videogame	1986			no
-Ghosts and Goblins	videogame	1985			no
-Realm of Impossibility	videogame	1984			no
-The Evil Dead	videogame	1984			no
-Zombie Zombie	videogame	1984			no
-Entombed	videogame	1982			no
+Dead Cells	videogame	2017	Motion Twin	france	no
+The Last of Us II	videogame	2019	Naughty Dog	usa	no
+Bite Off!	videogame	2018	NA	NA	no
+Fatal Hour: Petroleum	videogame	2018	Thor Gaming	NA	no
+Dread	videogame	2017	NA	NA	no
+BrainBread 2	videogame	2016	Reperio Studios	sweden	no
+Call of Duty: Infinite Warfare	videogame	2016	Infinity Ward	usa	no
+Plants vs. Zombies: Garden Warfare 2	videogame	2016	PopCap Games	usa	no
+Call of Duty: Black Ops III	videogame	2015	Treyarch	usa	no
+Dying Light	videogame	2015	Techland	poland	no
+H1Z1: Just Survive	videogame	2015	Daybreak Game Company	usa	no
+Reason 2 Die: Awakening	videogame	2015	QuadraticVision	NA	no
+Rebuild 3: Gangs of Deadsville	videogame	2015	Northway Games	canada	no
+Zombie Escape Amsterdam	videogame	2015	NA	NA	no
+Contagion	videogame	2014	Monochrome Corp	NA	no
+Dead State	videogame	2014	DoubleBear Productions	usa	no
+Plants vs. Zombies: Garden Warfare	videogame	2014	PopCap Games	usa	no
+The Evil Within	videogame	2014	Tango Gameworks	japan	no
+Unturned	videogame	2014	Smartly Dressed Games	canada	no
+Zombeer	videogame	2014	Moonbite Games, PadaOne Games	spain	no
+7 Days to Die	videogame	2013	The Fun Pimps	usa	no
+Dead Effect series	videogame	2013	inDev Brain	czech	no
+How To Survive	videogame	2013	Eko Studios	france	no
+State of Decay	videogame	2013	Undead Labs	usa	no
+The Last of Us	videogame	2013	Naughty Dog	usa	no
+The Walking Dead: Survival Instinct	videogame	2013	Terminal Reality	usa	no
+World of the Living Dead Resurrection	videogame	2013	Ballardia	NA	no
+Zombie Burger!	videogame	2013	NA	NA	no
+Zombie Shooter	videogame	2007	Sigma Team	russia	no
+Zombies Ate My Friends	videogame	2013	Glu Mobile	usa	no
+Amy	videogame	2012	VectorCell	france	no
+Call of Duty: Black Ops II	videogame	2012	Treyarch	usa	no
+DayZ	videogame	2012	Bohemia Interactive	czech	no
+Deadlight	videogame	2012	Tequila Works	spain	no
+Infestation: Survivor Stories	videogame	2012	OP Productions LLC	australia	no
+Lollipop Chainsaw	videogame	2012	Grasshooper Manufacture	japan	no
+The Walking Dead	videogame	2012	Telltale Games	usa	no
+Zafehouse: Diaries series	videogame	2012	ScrewFly Studios	australia	no
+Zombies, Run!	videogame	2012	Six to Start	uk	no
+ZombiU	videogame	2012	Ubisoft	france	no
+All Zombies Must Die!	videogame	2011	Doublesix	uk	no
+Atom Zombie Smasher	videogame	2011	Blendo Games	usa	no
+Call of Duty: Black Ops: Zombies	videogame	2011	Ideaworks Game Studio	uk	no
+Dead Block	videogame	2011	Digital Reality	hungary	no
+Dead Island series	videogame	2011	Techland,  Sumo Digital, Fatshark, Stunlock Studios	poland	no
+No More Room in Hell	videogame	2011	Valve Corporation	usa	no
+Project Zomboid	videogame	2011	The Indian Stone	uk	no
+Rise of Nightmares	videogame	2011	Sega	japan	no
+Space Pirates and Zombies	videogame	2011	MinMax Games	canada	no
+Trapped Dead	videogame	2011	Headup Games, Crenetic GmbH	germany	no
+Yakuza: Dead Souls	videogame	2011	Sega, Amusement Vision	japan	no
+Zombie Gunship	videogame	2011	Limbic Software	usa	no
+Zombie Lane	videogame	2011	Digital Chocolate	usa	no
+Zombie Parkour Runner	videogame	2011	Up Up Down Down	usa	no
+Zombies	videogame	2011	Babaroga	usa	no
+Blood Drive	videogame	2010	Sidhe	new_zealand	no
+Call of Duty: Black Ops	videogame	2010	Treyarch	usa	yes
+Dead Nation	videogame	2010	Housemarque, Climax Studios	finland	no
+Pixel Force: Left 4 Dead	videogame	2010	Eric Ruth Games	usa	no
+Red Dead Redemption: Undead Nightmare	videogame	2010	Rockstar	usa	no
+Rock of the Dead	videogame	2010	Epicenter Studios	usa	no
+Zombie Panic in Wonderland	videogame	2010	Akaoni Studio	spain	no
+Zombie Wonderland	videogame	2010	Xoobis	usa	no
+Alive 4-Ever	videogame	2009	Meridian Digital Entertainment	hong_kong	no
+Burn, Zombie Burn!	videogame	2009	Doublesix	uk	no
+Call of Duty: World at War	videogame	2009	Treyarch	usa	no
+Fort Zombie	videogame	2009	Kerberos Productions	canada	no
+I Made a Game with Zombies in It!	videogame	2009	Ska Studios	usa	no
+Minecraft	videogame	2009	Mojang	sweden	no
+Plants vs. Zombies	videogame	2009	PopCap Games	usa	no
+Shellshock 2: Blood Trails	videogame	2009	Rebellion Developments	uk	no
+Borderlands	videogame	2009	Gearbox Software	usa	no
+Undead Knights	videogame	2009	Team Tachyon, Now Production	japan	no
+Zombie Apocalypse	videogame	2009	Nihilistic Software	usa	no
+Zombie Driver	videogame	2009	Exor Studios	poland	no
+Zombie Tycoon	videogame	2009	Frima Studio	canada	no
+Zombie Wranglers	videogame	2009	Frozen Codebase	usa	no
+Corpse Craft: Incident at Weardd Academy	videogame	2008	Three Rings Design	usa	no
+Dead Frontier	videogame	2008	Creaky Corpse Ltd	uk	no
+Dead Space	videogame	2008	Visceral Games	usa	no
+Die2Nite	videogame	2008	Motion Twin	france	no
+Left 4 Dead	videogame	2008	Valve Corporation	usa	no
+Little Red Riding Hood's Zombie BBQ	videogame	2008	EnjoyUp, Gammik Entertaining	spain	no
+Soulless	videogame	2008	Frisky Fatal Games	serbia	no
+Teenage Zombies: Invasion of the Alien Brain Thingys!	videogame	2008	InLight Entertainment	canada	no
+The Last Guy	videogame	2008	Sony Interactive Entertainment	usa	no
+Dead Head Fred	videogame	2007	Vicious Cycle Software	usa	no
+Touch the Dead	videogame	2007	Virgin Play	spain	no
+Zombie Panic! Source	videogame	2007	Zombie Panic Team	NA	no
+Dead Rising	videogame	2006	Capcom	japan	no
+Darkwatch	videogame	2005	Highmoon Studios	usa	no
+Infected	videogame	2005	Planet Moon Studios	usa	no
+Killing Floor	videogame	2009	Tripwire Interactive	usa	no
+Land of the Dead: Road to Fiddler's Green	videogame	2005	BrainBox Games	uk	no
+Postal 2: Apocalypse Weekend	videogame	2005	Runnng With Scissors	usa	no
+Stubbs the Zombie in Rebel Without a Pulse	videogame	2005	Wideload	usa	no
+TimeSplitters: Future Perfect	videogame	2005	Free Radical Design	uk	no
+Urban Dead	videogame	2005	Kevan Davis	uk	no
+Survival Crisis Z	videogame	2004	Ska Studios	usa	no
+The X-Files: Resist or Serve	videogame	2004	Black Ops Entertainment	usa	no
+Judge Dredd: Dredd Vs. Death	videogame	2003	Rebellion Developments	uk	no
+Siren	videogame	2003	SIE Japan Studio	japan	no
+Hunter: The Reckoning series	videogame	2002	High Voltage Software	usa	no
+Warcraft III: Reign of Caos	videogame	2002	Blizzard Entertainment	usa	no
+Return to Castle Wolfenstein	videogame	2001	Grey Matter Interactive	usa	no
+Carrier	videogame	2000	Jaleco, EU Xicat Interactive	japan	no
+D2	videogame	2000	WARP	japan	no
+The Evil Dead	videogame	1984	Palace Software	uk	no
+Martian Gothic: Unification	videogame	2000	Creative Reality, Coyote Developments	usa	no
+OneeChanbara	videogame	2000	Tamsot	japan	no
+Shadow Man	videogame	1999	Acclaim Studios Teesside	uk	no
+The Typing of the Dead	videogame	1999	WOW Entertainment, Smilebit	japan	no
+They Hunger	videogame	1999	Black Window Games	NA	no
+Zombie Revenge	videogame	1999	Sega	japan	no
+CarnEvil	videogame	1998	Midway Games	usa	no
+Flesh Feast	videogame	1998	SegaSoft	japan	no
+Half-Life	videogame	1998	Valve Corporation	usa	no
+MediEvil	videogame	1998	SCEE Cambridge	uk	no
+Zombie Massacre	videogame	1997	Alpha Software	NA	no
+Blood	videogame	1997	Monolith Productions	usa	no
+Nightmare Creatures	videogame	1997	Kalisto Entertainment, Gameloft	france	no
+Voodoo Kid	videogame	1997	Infogrames	france	no
+Resident Evil	videogame	1996	Capcom	japan	no
+Area 51	videogame	1995	Mesa Logic, Perfect Entertainment, Tantalus Interactive	usa	no
+Alone in the Dark 3	videogame	1994	Infogrames	france	no
+Corpse Killer	videogame	1994	Digital Pictures	usa	no
+Ghoul Patrol	videogame	1994	LucasArts	usa	no
+Isle of the Dead	videogame	1993	RainMaker Software	usa	no
+Zombies Ate My Neighbors	videogame	1993	LucasArts	usa	no
+Monkey Island 2: LeChuck's Revenge	videogame	1991	LucasArts	usa	no
+Horror Zombies from the Crypt	videogame	1990	Astral Software	NA	no
+Zombie Nation	videogame	1990	KAZe	japan	no
+Beast Busters	videogame	1989	Hamachi, Papa and team, Images Design	hungary	no
+Sweet Home	videogame	1989	Capcom	japan	no
+Zombies: Undead or Alive	videogame	1989	Pedersen Systems	usa	no
+Zombi	videogame	1986	Ubisoft	france	no
+Ghosts and Goblins	videogame	1985	Capcom	japan	no
+Realm of Impossibility	videogame	1984	BRAM	uk	no
+The Evil Dead	videogame	1984	Palace Software	uk	no
+Zombie Zombie	videogame	1984	Spaceman	uk	no
+Entombed	videogame	1982	Western Technologies	usa	no
+BrainDead	series	2016	Robert King, Michelle King	usa	no
+Zafehouse: Diaries series 2	videogame	2012	ScrewFly Studios	australia	no
+Dead Space 2	videogame	2011	Visceral Games	usa	no
+Dead Space 3	videogame	2013	Visceral Games	usa	no
+Dead Space: Extraction	videogame	2009	Visceral Games	usa	no
+Dead Space: Ignition	videogame	2010	Visceral Games	usa	no
+Dead Space	videogame	2011	Visceral Games	usa	no
+Left 4 Dead 2	videogame	2009	Valve Corporation	usa	no
+Dead Rising 2	videogame	2010	Capcom	japan	no
+Dead Rising 3	videogame	2013	Capcom	japan	no
+Dead Rising 4	videogame	2016	Capcom	japan	no
+Killing Floor 2	videogame	2016	Tripwire Interactive	usa	no
+Killing Floor 3	videogame	2017	Tripwire Interactive	usa	no
+Forbidden Siren	videogame	2006	SIE Japan Studio	japan	no
+The Evil Dead: Hail the King	videogame	2000	Heavy Iron Studios	usa	no
+Evil Dead: A Fistful of Boomstick	videogame	2003	VIS Entertainment	uk	no
+Evil Dead: Regeneration	videogame	2005	Cranky Pants Games	usa	no
+Army of Darness: Defense	videogame	2011	Backflip Studios	usa	no
+They Hunger 2: Rest in Pieces	videogame	2000	Black Window Games	NA	no
+They Hunger 3: The Awakening	videogame	2001	Black Window Games	NA	no
+Half-Life: Opposing Force	videogame	1999	Valve Corporation	usa	no
+Half-Life: Blue Shift	videogame	2001	Gearbox Software	usa	no
+Half-Life: Decay	videogame	2001	Gearbox Software	usa	no
+Half-Life 2	videogame	2004	Valve Corporation	usa	no
+Half-Life 2: Deathmatch	videogame	2004	Valve Corporation	usa	no
+Half-Life: Lost Coast	videogame	2005	Valve Corporation	usa	no
+Half-Life 2: Episode One	videogame	2006	Valve Corporation	usa	no
+Half-Life: Episode 2	videogame	2007	Valve Corporation	usa	no
+MediEvil 2	videogame	2000	SCEE Cambridge	uk	no
+MediEvil: Resurrection	videogame	2005	SCEE Cambridge	uk	no
+Resident Evil 2	videogame	1998	Capcom	japan	no
+Resident Evil 3: Nemesis	videogame	1999	Capcom	japan	no
+Resident Evil Survivor	videogame	2000	TOSE	japan	no
+Resident Evil - Code: Veronica	videogame	2000	Capcom	japan	no
+Resident Evil: Gaiden	videogame	2001	Capcom, M4	japan	no
+Resident Evil: Survidor 2 - Code: Veronica	videogame	2001	Capcom, Namco, Nextech, SIMS Co.	japan	no
+Resident Evil	videogame	2002	Capcom	japan	no
+Resident Evil Zero	videogame	2002	Capcom	japan	no
+Resident Evil: Dead Aim	videogame	2003	Cavia	japan	no
+Resident Evil Outbreak	videogame	2003	Capcom	japan	no
+Resident Evil Outbreak File #2	videogame	2004	Capcom	japan	no
+Resident Evil 4	videogame	2005	Capcom	japan	no
+Resident Evil: Th Umbrella Chronicles	videogame	2007	Capcom, Cavia	japan	no
+Resident Evil 5	videogame	2009	Capcom	japan	no
+Resident Evil: The Dark Chronicles	videogame	2009	Capcom, Cavia	japan	no
+Resident Evil: The Mercenaries 3D	videogame	2011	Capcom	japan	no
+Resident Evil: Revelations	videogame	2012	Capcom	japan	no
+Umbrella Corps	videogame	2016	Capcom	japan	no
+Resident Evil 7: Biohazard	videogame	2018	Capcom	japan	no
+Resident Evil 2	videogame	2019	Capcom	japan	no
+Resident Evil: Operation Racoon City	videogame	2012	Capcom, Slant Six Games	japan	no
+Resident Evil 6	videogame	2012	Capcom	japan	no
+Resident Evil: Revelations 2	videogame	2015	Capcom	japan	no
+The House of the Dead	videogame	1996	Sega	japan	no
+The House of the Dead 2	videogame	1998	Wow Entertainment	japan	no
+The House of the Dead III	videogame	2002	Wow Entertainment	japan	no
+The House of the Dead 4	videogame	2005	Wow Entertainment	japan	no
+The House of the Dead 4 Special	videogame	2006	Wow Entertainment	japan	no
+The House of the Dead: Overkill	videogame	2009	Headstrong Games, Modern Dream	uk	no
+House of the Dead: Scarlet Dawn	videogame	2018	Wow Entertainment	japan	no
+The Pinball of the Dead	videogame	2002	Wow Entertainment	japan	no
+English of the Dead	videogame	2008	Now Production	japan	no
+The House of the Dead EX	videogame	2009	Sega	japan	no
+Sega Golden Gun	videogame	2011	Sega	japan	no
+The Typing of the Dead: Overkill	videogame	2013	Modern Dream	uk	no
+Doom	videogame	1993	id Software	usa	no
+Doom II: Hell on Earth	videogame	1994	id Software	usa	no
+Final Doom	videogame	1996	id Software	usa	no
+Doom 64	videogame	1997	Midway Games	usa	no
+Doom 3	videogame	2004	id Software	usa	no
+Doom 3: BFG Edition	videogame	2012	id Software	usa	no
+Doom	videogame	2016	id Software	usa	no
+Doom Eternal	videogame	NA	id Software	usa	no
+Doom RPG	videogame	2005	id Software, Fountainhead Entertainment	usa	no
+Doom Resurrection	videogame	2009	Escalation Studios, id Software	usa	no
+Doom II RPG	videogame	2010	Fountainhead Entertainment, id Software	india	no
+Doom FRV	videogame	NA	Bethseda Games	usa	no
