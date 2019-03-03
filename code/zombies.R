@@ -7,13 +7,13 @@
 library(magrittr)  # for pipes
 library(readxl)    # for importing Excel files
 library(dplyr)     # for wrangling data
-library(tibble)
+library(tibble)    # for tidy data presentation
 library(ggplot2)   # for visualising data
 library(viridis)   # for plot colours
 library(extrafont) # for text fonts
 library(gridExtra) # for arranging plots together
 library(forcats)   # for working with categorical variables
-library(patchwork)
+library(patchwork) # for arranging plots into a poster
 
 # extra -------------------------------------------------------------------
 
@@ -82,7 +82,7 @@ ggplot(data, aes(year, fill = type)) +
 # overal distribution by year ---------------------------------------------------
 year_type <-
   ggplot(data, aes(year, colour = type)) +
-  geom_density() +
+  geom_density(size = 2) +
   labs(title = "Evolution of zombie-related material production over the years by type",
        x = "Year", y = "Density", colour = "Type of material") +
   scale_colour_viridis(discrete = TRUE, option = "inferno") +
@@ -162,7 +162,7 @@ country_counts <-
 # budget-box --------------------------------------------------------------------
 budget_box <-
     data %>%
-    filter(!is.na(budget), !is.na(box), type == "film") %>%
+    filter(!is.na(log10(budget)), !is.na(log10(box)), type == "film") %>%
     ggplot(., aes(colour = country)) +
     geom_segment(aes(x = budget, xend = box, y = title, yend = title), size = 1.5, linejoin = "mitre") +
     geom_point(aes(x = budget, y = title), size = 2) +
@@ -178,20 +178,20 @@ budget_box <-
                                           size = 0.5),
           plot.background = element_rect(fill = "grey13"),
           text = element_text(colour = "white", family = "Arial Black", size = 15),
-          axis.text.x = element_text(colour = "white", angle = 0, family = "Arial"),
+          axis.text.x = element_text(colour = "white", angle = 45, family = "Arial"),
           axis.text.y = element_text(colour = "white", family = "Arial", size = 9),
           legend.text = element_text(family = "Arial"),
           legend.position = "top",
           legend.key = element_rect(fill = "gray13", colour = "gray13"),
           legend.background = element_rect(fill = "gray13")) +
     facet_wrap(.~region, nrow = 1) +
-    ggsave("~/projects/zombies/figures/budget_box.png", height = 15, width = 15)
+    ggsave("~/projects/zombies/figures/budget_box.png", height = 20, width = 15)
   
 
 # map ---------------------------------------------------------------------------
 map <-
   map_data("world") %>%
-  mutate_at(vars(1:6), funs(tolower(.))) %>%
+  mutate_at(vars(1:6), list(~tolower(.))) %>%
   rename(country = region) %>%
   full_join(., data) %>%
   group_by(country, lat, long, group, order) %>%
@@ -227,3 +227,4 @@ map <-
 # arrange plots -----------------------------------------------------------------
 grid.arrange(year_type, map, region_type, country_year, country_counts, budget_box, ncol = 1) +
   ggsave("~/projects/zombies/figures/poster.png", height = 35, width = 15)
+
