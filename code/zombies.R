@@ -179,13 +179,13 @@ budget_box <-
           plot.background = element_rect(fill = "grey13"),
           text = element_text(colour = "white", family = "Arial Black", size = 15),
           axis.text.x = element_text(colour = "white", angle = 45, family = "Arial"),
-          axis.text.y = element_text(colour = "white", family = "Arial", size = 9),
+          axis.text.y = element_text(colour = "white", family = "Arial", size = 8),
           legend.text = element_text(family = "Arial"),
           legend.position = "top",
           legend.key = element_rect(fill = "gray13", colour = "gray13"),
           legend.background = element_rect(fill = "gray13")) +
     facet_wrap(.~region, nrow = 1) +
-    ggsave("~/projects/zombies/figures/budget_box.png", height = 20, width = 15)
+    ggsave("~/projects/zombies/figures/budget_box.png", height = 30, width = 15)
   
 
 # map ---------------------------------------------------------------------------
@@ -223,8 +223,31 @@ map <-
         legend.background = element_rect(fill = "gray13")) +
   ggsave("~/projects/zombies/figures/map_counts.png", height = 15, width = 15)
 
+# duration by year
+duration_year <-
+  ggplot(data = data, aes(x = year, y = duration, size = budget, colour = region)) +
+  geom_point(alpha = 0.5) +
+  labs(x = "Year", y = "Duration (minutes)") +
+  theme_minimal() +
+  scale_colour_viridis(option = "inferno", discrete = TRUE) + 
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor.y = element_blank(),
+        panel.background = element_rect(fill = "gray13",
+                                        colour = "white",
+                                        size = 0.5),
+        plot.background = element_rect(fill = "grey13"),
+        text = element_text(colour = "white", family = "Arial Black", size = 15),
+        axis.text = element_text(size = 15, colour = "white"),
+        legend.text = element_text(family = "Arial"),
+        legend.position = "right",
+        legend.key = element_rect(fill = "gray13", colour = "gray13"),
+        legend.background = element_rect(fill = "gray13")) +
+  ggsave("~/projects/zombies/figures/duration_year.png", height = 5, width = 10)
+
+
 
 # arrange plots -----------------------------------------------------------------
-grid.arrange(year_type, map, region_type, country_year, country_counts, budget_box, ncol = 1) +
-  ggsave("~/projects/zombies/figures/poster.png", height = 35, width = 15)
+grid.arrange(year_type, map, region_type, country_year, country_counts, budget_box, duration_year, ncol = 1)
 
