@@ -48,14 +48,15 @@ oceania <- c("australia", "new_zealand", "fiji")
 
 # import data -------------------------------------------------------------------
 data <-
-  read_xlsx("~/projects/zombies/data/zombies.xlsx", sheet = "zombies") %>%
-  mutate(region = case_when(country %in% europe ~ "europe",
+  read_xlsx("~/projects/zombies/data/zombies.xlsx", sheet = "zombies", .name_repair = "universal") %>%
+  mutate(region = case_when(country %in% europe  ~ "europe",
                             country %in% america ~ "america",
-                            country %in% asia ~ "asia",
-                            country %in% africa ~"africa",
+                            country %in% asia    ~ "asia",
+                            country %in% africa  ~ "africa",
                             country %in% oceania ~ "oceania"))
 
 # plot data ---------------------------------------------------------------------
+
 # overall distribution by region
 region_type <-
 ggplot(data, aes(year, fill = type)) +
@@ -251,3 +252,16 @@ duration_year <-
 # arrange plots -----------------------------------------------------------------
 grid.arrange(year_type, map, region_type, country_year, country_counts, budget_box, duration_year, ncol = 1)
 
+poster <-
+  year_type +
+  map +
+  region_type +
+  country_year +
+  country_counts +
+  budget_box +
+  duration_year +
+  plot_layout(ncol = 1) +
+  theme(plot.background = element_rect(fill = "gray13")) +
+  ggsave("~/projects/zombies/figures/poster.png", heigh = 40, width = 15)
+
+  
