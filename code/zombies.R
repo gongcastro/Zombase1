@@ -1,7 +1,7 @@
 # zombies: Production of zombie material over the years
 # Gonzalo García-Castro, gonzaloggc95@gmail.com
 
-# set up -----------------------------------------------------------------------
+#### set up ###########################################
 
 # load packages
 library(magrittr)  # for pipes
@@ -14,8 +14,6 @@ library(extrafont) # for text fonts
 library(gridExtra) # for arranging plots together
 library(forcats)   # for working with categorical variables
 library(patchwork) # for arranging plots into a poster
-
-# extra -------------------------------------------------------------------
 
 # group countries by region
 europe <- c("portugal", "spain", "france", "andorra", "italy", "greece", "belgium", "ireland",
@@ -46,16 +44,17 @@ africa <- c("morocco", "algeria", "tunisia", "south_africa", "nigeria", "democra
 oceania <- c("australia", "new_zealand", "fiji")
 
 
-# import data -------------------------------------------------------------------
+
+#### import data ######################################
 data <-
-  read_xlsx("~/projects/zombies/data/zombies.xlsx", sheet = "zombies", .name_repair = "universal") %>%
+  read_xlsx("data/zombies.xlsx", sheet = "zombies", .name_repair = "universal") %>%
   mutate(region = case_when(country %in% europe  ~ "europe",
                             country %in% america ~ "america",
                             country %in% asia    ~ "asia",
                             country %in% africa  ~ "africa",
                             country %in% oceania ~ "oceania"))
 
-# plot data ---------------------------------------------------------------------
+#### plot data ########################################
 
 # overall distribution by region
 region_type <-
@@ -78,9 +77,9 @@ ggplot(data, aes(year, fill = type)) +
         legend.key = element_rect(fill = "gray13", colour = "gray13"),
         legend.background = element_rect(fill = "gray13")) +
   facet_wrap(.~region, nrow = 1) +
-  ggsave("~/projects/zombies/figures/region_type.png" , width = 15)
+  ggsave("figures/region_type.png", width = 15)
 
-# overal distribution by year ---------------------------------------------------
+#### overal distribution by year #########################
 year_type <-
   ggplot(data, aes(year, colour = type)) +
   geom_density(size = 2) +
@@ -101,9 +100,9 @@ year_type <-
           legend.position = "right",
           legend.key = element_rect(fill = "gray13", colour = "gray13"),
           legend.background = element_rect(fill = "gray13")) +
-  ggsave("~/projects/zombies/figures/year_type.png" , width = 15)
+  ggsave("figures/year_type.png" , width = 15)
 
-# country against year -----------------------------------------------------------
+#### country against year #################################
 country_year <-
   data %>%
   filter(country != "NA", year != "NA") %>% arrange(country) %>%
@@ -128,9 +127,9 @@ country_year <-
           legend.position = "right",
           legend.key = element_rect(fill = "gray13", colour = "gray13"),
           legend.background = element_rect(fill = "gray13")) +
-  ggsave("~/projects/zombies/figures/country_year.png", height = , width = 10)
+  ggsave("figures/country_year.png", width = 10)
 
-# country counts -----------------------------------------------------------------
+#### country counts #########################################
 country_counts <-
   data %>%
   filter(country != "NA", year != "NA") %>%
@@ -157,10 +156,10 @@ country_counts <-
           legend.position = "top",
           legend.key = element_rect(fill = "gray13", colour = "gray13"),
           legend.background = element_rect(fill = "gray13")) +
-  ggsave("~/projects/zombies/figures/country_counts.png", height = 7, width = 10)
+  ggsave("figures/country_counts.png", height = 7, width = 10)
 
   
-# budget-box --------------------------------------------------------------------
+#### budget-box ###############################################
 budget_box <-
     data %>%
     filter(!is.na(log10(budget)), !is.na(log10(box)), type == "film") %>%
@@ -186,10 +185,9 @@ budget_box <-
           legend.key = element_rect(fill = "gray13", colour = "gray13"),
           legend.background = element_rect(fill = "gray13")) +
     facet_wrap(.~region, nrow = 1) +
-    ggsave("~/projects/zombies/figures/budget_box.png", height = 30, width = 15)
-  
+    ggsave("figures/budget_box.png", height = 10)
 
-# map ---------------------------------------------------------------------------
+#### map ################################################################
 map <-
   map_data("world") %>%
   mutate_at(vars(1:6), list(~tolower(.))) %>%
@@ -222,9 +220,9 @@ map <-
         legend.position = "right",
         legend.key = element_rect(fill = "gray13", colour = "gray13"),
         legend.background = element_rect(fill = "gray13")) +
-  ggsave("~/projects/zombies/figures/map_counts.png", height = 15, width = 15)
+  ggsave("figures/map_counts.png", height = 15, width = 15)
 
-# duration by year
+#### duration by year #############################################
 duration_year <-
   ggplot(data = data, aes(x = year, y = duration, size = budget, colour = region)) +
   geom_point(alpha = 0.5) +
@@ -245,11 +243,9 @@ duration_year <-
         legend.position = "right",
         legend.key = element_rect(fill = "gray13", colour = "gray13"),
         legend.background = element_rect(fill = "gray13")) +
-  ggsave("~/projects/zombies/figures/duration_year.png", height = 5, width = 10)
+  ggsave("figures/duration_year.png", height = 5, width = 10)
 
-
-
-# arrange plots -----------------------------------------------------------------
+#### arrange plots ##############################################################
 grid.arrange(year_type, map, region_type, country_year, country_counts, budget_box, duration_year, ncol = 1)
 
 poster <-
@@ -262,6 +258,6 @@ poster <-
   duration_year +
   plot_layout(ncol = 1) +
   theme(plot.background = element_rect(fill = "gray13")) +
-  ggsave("~/projects/zombies/figures/poster.png", heigh = 40, width = 15)
+  ggsave("figures/poster.png", heigh = 40, width = 15)
 
   
