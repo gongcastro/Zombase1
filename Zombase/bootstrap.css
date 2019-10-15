@@ -1,0 +1,21 @@
+h1, h2 {
+  color: white;
+  font-weight: 500;
+}
+
+body {
+  color: black;
+  background-color: #000000;
+}
+
+.shiny-server-account {
+  display: none;
+  
+}
+
+
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 24px;
+}
